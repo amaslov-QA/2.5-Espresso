@@ -61,7 +61,7 @@ public class TextTest {
         ViewInteraction appCompatImageButton = onView(withContentDescription("Open navigation drawer"));
         ViewInteraction menuItems = onView(withId(R.id.nav_gallery));
         ViewInteraction recycleList = onView(withId(R.id.recycle_view));
-        ViewInteraction galleryItem = onView(allOf(withId(R.id.item_number), withText("7")));
+        ViewInteraction galleryItem = onView(allOf(withId(R.id.item_number), withText("5")));
 
 
 
